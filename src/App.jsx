@@ -1,15 +1,19 @@
 
 import './App.css';
-import Counter from './components/Counter';
+import Counter from './components/Counter/Counter';
+
 import './components/usuario'
-import { Usuario } from './components/usuario';
+//import { Usuario } from './components/usuario';
 
 function App() {
 
-
+  
 
 
   return (
+
+    <Counter/>
+    /*
     <div className="App">
       
       <Usuario 
@@ -25,6 +29,7 @@ function App() {
       />
   
     </div>
+    */
   ); 
 }
   
